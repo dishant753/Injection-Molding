@@ -7,13 +7,14 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
   @apply bg-ui-bg text-ui-text antialiased;
   font-feature-settings: "tnum";
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body::before {
